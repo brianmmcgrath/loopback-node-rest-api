@@ -5,7 +5,7 @@
     "ACL": 1,
     "RoleMapping": 1,
     "Role": 1,
-    "Product": 6,
+    "Product": 7,
     "Category": 3
   },
   "models": {
@@ -15,11 +15,12 @@
     "RoleMapping": {},
     "Role": {},
     "Product": {
-      "1": "{\"name\":\"juice\",\"price\":15,\"id\":1}",
-      "2": "{\"name\":\"coffee\",\"price\":499,\"categoryId\":1,\"id\":2}",
+      "1": "{\"id\":1,\"name\":\"coffee\",\"price\":499}",
+      "2": "{\"id\":2,\"name\":\"coffee\",\"price\":499,\"categoryId\":1}",
       "3": "{\"name\":\"tea\",\"price\":499,\"categoryId\":1,\"id\":3}",
       "4": "{\"name\":\"cheesecake\",\"price\":799,\"categoryId\":2,\"id\":4}",
-      "5": "{\"name\":\"bacon\",\"price\":799,\"categoryId\":2,\"id\":5}"
+      "5": "{\"name\":\"bacon\",\"price\":799,\"categoryId\":2,\"id\":5}",
+      "6": "{\"name\":\"madfs\",\"price\":20.1,\"id\":6}"
     },
     "Category": {
       "1": "{\"name\":\"Drinks\",\"id\":1}",
